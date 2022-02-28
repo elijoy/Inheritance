@@ -6,7 +6,7 @@ def main():
     # Create a Mammal object, a Dog object, and
     # a Cat object.
     mammal = animals.Mammal('regular animal')
-    dog = animals.Dog()
+    dog = animals.Dog() #these are instances
     cat = animals.Cat()
 
 

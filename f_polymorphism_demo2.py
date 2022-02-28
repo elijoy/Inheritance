@@ -26,7 +26,7 @@ def main():
 # and make_sound methods.
 
 def show_mammal_info(creature):
-    if isinstance(creature, animals.Mammal):
+    if isinstance(creature, animals.Mammal): #checking to see if creature belongs to the class animals.Mammal, if not it will go to the second message
         creature.show_species()
         creature.make_sound()
     else:
